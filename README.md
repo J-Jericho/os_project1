@@ -15,7 +15,12 @@ The producer generates items and puts items onto the table. The consumer will pi
 
 ---
 
-Code is written in C++. There are two files producer.cpp and consumer.cpp. Both files include comments and documentation explaining what the code is doing. Utilizes shared memory and semaphores. Semaphores are used to track the table buffer and run the two programs synchronusly. Code is written where table buffer size is only two, as well as, producer and consumer will each produce/consume an item 5 times. 
+Code is written in C
+
+There are two files producer.c and consumer.c 
+
+Both files include comments and documentation. 
+The Producer and Consumer will each produce/consume an item 10 times. 
 
 To execute:
 
