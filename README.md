@@ -29,3 +29,6 @@ $ g++ producer.cpp -pthread -lrt -o producer
 $ g++ consumer.cpp -pthread -lrt -o consumer
 
 $ ./producer & ./consumer &
+
+![WindowsTerminal_kbxBivvIQf](https://user-images.githubusercontent.com/47755334/199391641-ed635de4-ea50-44fc-ace5-c76fdb4343ea.png)
+
